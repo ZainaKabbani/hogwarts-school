@@ -17,6 +17,7 @@
  ## Setup
  To run this project, install it locally then follow this: 
  ~~~
+ $ cd ./hogwarts-school
  $ npm install
  $ ng serve --open (alias: ng s -o)
  ~~~
