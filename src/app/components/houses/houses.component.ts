@@ -35,7 +35,7 @@ export class HousesComponent implements OnInit {
   showDetails(id: number) {
     let house = this.houses.find((e) => e.houseId == id);
     const dialogRef = this.dialog.open(HouseDetailsComponent, {
-      height: '80%',
+      height: '55%',
       width: '60%',
       data: house,
     });
